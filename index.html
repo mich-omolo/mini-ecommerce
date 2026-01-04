@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Urban Threads | Products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Urban Threads</h1>
+    <nav>
+        <a href="index.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="top-info">
+        <span id="greeting"></span> |
+        <span id="date"></span> |
+        🛒 Cart: <span id="cart-count">0</span>
+        <button id="theme-toggle">Toggle Theme</button>
+    </div>
+</header>
+
+<main>
+    <section class="products">
+        <article class="product">
+            <img src="images/tshirt.jpg" alt="T-shirt">
+            <h3>Classic T-Shirt</h3>
+            <p>Comfortable cotton t-shirt.</p>
+            <p class="price">Ksh 1,200</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </article>
+
+        <article class="product">
+            <img src="images/hoodie.jpg" alt="Hoodie">
+            <h3>Urban Hoodie</h3>
+            <p>Warm hoodie for casual wear.</p>
+            <p class="price">Ksh 2,500</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </article>
+
+        <article class="product">
+            <img src="images/jacket.jpg" alt="Jacket">
+            <h3>Denim Jacket</h3>
+            <p>Stylish jacket for all seasons.</p>
+            <p class="price">Ksh 3,800</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </article>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Urban Threads</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
